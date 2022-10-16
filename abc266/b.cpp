@@ -10,7 +10,7 @@ int main(void) {
   cin >> N;
 
   N = N % D;
-  if(N > 0) {
+  if(N >= 0) {
   cout << N << endl;
   }else {
   cout << (D + N) << endl;
